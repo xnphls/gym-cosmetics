@@ -10,7 +10,7 @@ Skip to:<br>
 ![The title logo for the pride colors hack](https://user-images.githubusercontent.com/65273893/236605727-b1e101b6-5a41-4705-b352-d242dcabd477.png)<br>
 _<sup>The title logo in trans flag colors.</sup>_
 
-This patch changes the level colors of the game to various pride flags. The level colors were originally chosen by 3rr0r404. It was adapted to Gym by deadmemelmao and yours truly, and you can download it in the releases page [here.](https://github.com/xnphls/gym-pride/releases/tag/v5TEpride)
+This patch changes the level colors of the game to various pride flags. The level colors were originally chosen by 3RR0R404. It was adapted to Gym by deadmemelmao and yours truly, and you can download it in the releases page [here.](https://github.com/xnphls/gym-pride/releases/tag/v5TEpride)
 
 ### The colors
 
