@@ -1,6 +1,11 @@
 # Tetris GYM Cosmetics: Pride Edition and Darkmode
 These two patches work on kirjava's [TetrisGYM v5 Tournament Edition](https://github.com/kirjavascript/TetrisGYM/releases/tag/v5-tournament), a highly featureful romhack for training and competing in NES Tetris.
 
+Skip to:<br>
+[Pride colors](#pride-level-colors)<br>
+[Dark mode](#dark-mode)<br>
+[Instructions and guide](#instructions--brief-dev-notes)
+
 ## Pride level colors
 ![The title logo for the pride colors hack](https://user-images.githubusercontent.com/65273893/236605727-b1e101b6-5a41-4705-b352-d242dcabd477.png)<br>
 _<sup>The title logo in trans flag colors.</sup>_
@@ -25,7 +30,7 @@ Each level's colors represent a different LGBT pride flag. We chose 10 of them, 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Transgender_Pride_flag.svg/512px-Transgender_Pride_flag.svg.png?20221008042421" width="20" height="15"> **Level x8** Transgender <br>
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Lesbian_pride_flag_2018.svg/1280px-Lesbian_pride_flag_2018.svg.png" width="20" height="15"> **Level x9** Lesbian <br>
 
-## Darkmode
+## Dark mode
 <img src="https://user-images.githubusercontent.com/65273893/236659261-9149ce36-123a-492d-85c5-88bbae76242a.png" width="800"><br>
 _<sup>Dark mode is on the left; the regular GYM's look is on the right.</sup>_
 
@@ -34,7 +39,7 @@ This patch was originally conceived by doge_nestris. I've adapted it for use wit
 ## Instructions & brief dev notes
 You can patch these using a utility such as [Rom Patcher JS.](https://www.marcrobledo.com/RomPatcher.js/) Make sure you're patching over an already-patched version of GYM Tournament Edition; it will not work on the default Tetris (USA) rom.
 
-I'd also like to show you the process I used so you can mess around with the palettes and sprites yourself if you wish. It was a lot simpler than I feared going in. Thanks to deadmemelmao for showing me how she does it.
+I'd also like to show you the process I used so you can mess around with the palettes and sprites yourself if you wish. It was a lot simpler than I feared going in; you do not need to know any assembly. Thanks to deadmemelmao for showing me how she does it.
 
 ### How the palettes were changed
 The palette code was all changed in [Mesen,](https://www.mesen.ca/) which is the main emulator folks use for NEStris but also contains pretty powerful romhacking tools. For the sprite changes, I used [YY-CHR](https://www.romhacking.net/utilities/958/). There are other tools to do these things, too, but I don't know them and don't know how to use them. I barely know how to use _these._
@@ -68,6 +73,7 @@ x9:      0f 30 27 16     0f 30 27 15     lesbian
 
 title    0f 17 27 37     0f 21 30 25     transgender
 ```
+There are many other color addresses that can be changed, too, but weren't for the sake of brevity. You can change the border colors, the menu colors, the rocket at the end of the game in Qual Mode (although that change I never quite got to work right)... with a bit of hunting and searching and peeking at the palette viewer, you can find what you're searching for.
 
 ### How the sprites were changed
 The sprite work (which was used for the title logo of the pride rom and the tile changes of the darkmode rom) was done in YY-CHR, whose use is a little more straightforward if you've used image editing software before, but I'll at least show you a screenshot of the `CHR ROM` so you can see which things were altered. It's the spritesheet of the Pride rom with no darkmode. Note that these are false colors, as the palette is determined outside of the spritesheet.
@@ -77,7 +83,7 @@ The sprite work (which was used for the title logo of the pride rom and the tile
 ![#1589F0](https://placehold.co/15x15/ffff00/ffff00.png) _<sup>The background tiles that need to be deleted for dark mode.</sup>_<br>
 ![#1589F0](https://placehold.co/15x15/00ff00/00ff00.png) _<sup>The border tiles whose edges can be modified to look better against the background.</sup>_<br>
 ![#1589F0](https://placehold.co/15x15/00ffff/00ffff.png) _<sup>The title logo, pictured here already modified for the pride rom.</sup>_<br>
-![#1589F0](https://placehold.co/15x15/ff00ff/ff00ff.png) _<sup>Nothing happened to these in either rom, but these are the three piece sprites. Do with this information what you will.</sup>_
+![#1589F0](https://placehold.co/15x15/ff00ff/ff00ff.png) _<sup>Nothing happened to these in either romhack, but these are the three piece sprites. Do with this information what you will.</sup>_
 
 ![chr notated](https://user-images.githubusercontent.com/65273893/236664306-b4fd88db-b9b6-4549-8f16-2c97915f7f0d.png)
 
