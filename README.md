@@ -1,4 +1,4 @@
-# Tetris GYM Pride Edition / Darkmode
+# Tetris GYM Cosmetics: Pride Edition / Darkmode
 These two patches work on kirjava's [TetrisGYM v5 Tournament Edition](https://github.com/kirjavascript/TetrisGYM/releases/tag/v5-tournament), a highly featureful romhack for training and competing in NES Tetris.
 ## Pride level colors
 ![The title logo for the pride colors hack](https://user-images.githubusercontent.com/65273893/236605727-b1e101b6-5a41-4705-b352-d242dcabd477.png)
