@@ -28,3 +28,7 @@ Each level's colors represent a different LGBT pride flag. We chose 10 of them, 
 _Dark mode is on the left; the regular GYM's look is on the right._
 
 This patch was originally conceived by doge_nestris. I've adapted it for use with Tournament Edition along with a few tweaks to the pixels, and it works seamlessly alongside the Pride hack. You can get the patch [here.](https://github.com/xnphls/gym-pride/releases/tag/v5TEdark)
+
+## How they were made
+Here's the method; with this, you can mess around with the colors or try 
+
