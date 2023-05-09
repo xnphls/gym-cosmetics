@@ -42,7 +42,7 @@ You can patch these using a utility such as [Rom Patcher JS.](https://www.marcro
 I'd also like to show you the process I used so you can mess around with the palettes and sprites yourself if you wish. It was a lot simpler than I feared going in; you do not need to know any assembly. Thanks to deadmemelmao for showing me how she does it.
 
 ### How the palettes were changed
-The palette code was all changed in [Mesen,](https://www.mesen.ca/) which is the main emulator folks use for NEStris but also contains pretty powerful romhacking tools. For the sprite changes, I used [YY-CHR](https://www.romhacking.net/utilities/958/). There are other tools to do these things, too, but I don't know them and don't know how to use them. I barely know how to use _these._
+The palette code was all changed in [Mesen,](https://www.mesen.ca/) which is the main emulator folks use for NEStris but also contains pretty powerful romhacking tools. For the sprite changes, I used [YY-CHR](https://www.romhacking.net/utilities/958/). You can use Mesen for this as well, but it's really weak for sprite editing. There are other tools to do these things, too, but I don't know them and don't know how to use them. I barely know how to use _these._
 
 For the Pride hack, it mainly just revolved around locating entries in the palette section of `PRG ROM`, which I messed around with in Mesen using `Debug -> Memory Tools`. To save any changes as a new rom, I had to open `Debug -> Debugger` and save as a new rom from that dialog. I also had `Debug -> PPU Viewer -> Palette Viewer` open to see the palettes active on the game screen I was on.
 
