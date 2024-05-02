@@ -1,5 +1,5 @@
 # Tetris GYM Cosmetics: Pride Edition and Darkmode
-These two patches work on kirjava's [TetrisGYM v5 Tournament Edition](https://github.com/kirjavascript/TetrisGYM/releases/tag/v5-tournament), a highly featureful romhack for training and competing in NES Tetris.
+These two patches are based on kirjava's [TetrisGYM v5 Tournament Edition](https://github.com/kirjavascript/TetrisGYM/releases/tag/v5-tournament), a highly featureful romhack for training and competing in NES Tetris.
 
 **Skip to:**<br>
 [Pride colors](#pride-level-colors)<br>
@@ -10,7 +10,7 @@ These two patches work on kirjava's [TetrisGYM v5 Tournament Edition](https://gi
 ![The title logo for the pride colors hack](https://user-images.githubusercontent.com/65273893/236605727-b1e101b6-5a41-4705-b352-d242dcabd477.png)<br>
 _<sup>The title logo in trans flag colors.</sup>_
 
-This patch changes the level colors of the game to various pride flags. The level colors were originally chosen by 3RR0R404. It was adapted to Gym by deadmemelmao and yours truly, and you can download it in the releases page [here.](https://github.com/xnphls/gym-pride/releases/tag/v5TEpride)
+This patch changes the level colors of the game to various pride flags. The level colors were originally chosen by 3RR0R404. It was adapted to Gym by deadmemelmao and yours truly, and you can download it in the releases page [here.](https://github.com/xnphls/gym-cosmetics/releases/tag/v5TEprideordark)
 
 ### The colors
 
@@ -34,10 +34,10 @@ Each level's colors represent a different LGBT pride flag. We chose 10 of them, 
 <img src="https://user-images.githubusercontent.com/65273893/236659261-9149ce36-123a-492d-85c5-88bbae76242a.png" width="800"><br>
 _<sup>Dark mode is on the left; the regular GYM's look is on the right.</sup>_
 
-This patch was originally conceived by doge_nestris. I've adapted it for use with Tournament Edition along with a few tweaks to the pixels, and it works seamlessly alongside the Pride hack. You can get the patch [here.](https://github.com/xnphls/gym-pride/releases/tag/v5TEdark) Personally, I find it hard to play the game without it.
+This patch was originally conceived by doge_nestris. I've adapted it for use with Tournament Edition along with a few tweaks to the pixels, and it works seamlessly alongside the Pride hack. You can get the patch [here.](https://github.com/xnphls/gym-cosmetics/releases/tag/v5TEprideordark) Personally, I find it hard to play the game without it.
 
 ## Instructions & brief dev notes
-You can patch these using a utility such as [Rom Patcher JS.](https://www.marcrobledo.com/RomPatcher.js/) Make sure you're patching over an already-patched version of GYM Tournament Edition; it will not work on the default Tetris (USA) rom.
+You can patch these using a utility such as [Rom Patcher JS.](https://www.marcrobledo.com/RomPatcher.js/) Use the original, default `Tetris (USA).nes` rom as a base.
 
 I'd also like to show you the process I used so you can mess around with the palettes and sprites yourself if you wish. It was a lot simpler than I feared going in; you do not need to know any assembly. Thanks to deadmemelmao for showing me how she does it.
 
