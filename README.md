@@ -88,4 +88,4 @@ The sprite work (which was used for the title logo of the pride rom and the tile
 ![chr notated](https://user-images.githubusercontent.com/65273893/236664306-b4fd88db-b9b6-4549-8f16-2c97915f7f0d.png)
 
 ##
-We hope you enjoy the hacks. For any questions, I can be reached on Discord, Xenophilius#1814, or you can find me in the [CTM Discord server](https://ctm.gg/discord), along with quite a few people who are much better than me at this stuff. Come tell me if you made any cool hacks of your own!
+We hope you enjoy the hacks. For any questions, I can be reached on Discord, @xenoboots, or you can find me in the [CTM Discord server](https://discord.gg/classic-tetris-monthly-374368504465457153), along with quite a few people who are much better than me at this stuff. Come tell me if you made any cool hacks of your own!
